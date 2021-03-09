@@ -6,18 +6,19 @@
 [ext_resource path="res://dodge_assets/art/enemySwimming_1.png" type="Texture" id=4]
 [ext_resource path="res://dodge_assets/art/enemyWalking_2.png" type="Texture" id=5]
 [ext_resource path="res://dodge_assets/art/enemyWalking_1.png" type="Texture" id=6]
-[ext_resource path="res://mob.gd" type="Script" id=7]
+[ext_resource path="res://Mob.gd" type="Script" id=7]
+
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 6 ), ExtResource( 5 ) ],
-"loop": true,
-"name": "walk",
-"speed": 3.0
-}, {
 "frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
 "loop": true,
 "name": "fly",
+"speed": 3.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "walk",
 "speed": 3.0
 }, {
 "frames": [ ExtResource( 4 ), ExtResource( 1 ) ],
